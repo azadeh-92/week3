@@ -65,3 +65,38 @@ h2 {
   /* max-width: 800px; */
   margin: 0 auto;
 }
+@media (max-width: 700px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  .resimg {
+    display: none;
+  }
+  .row {
+    text-align: center;
+  }
+  .butt a {
+    text-decoration: none;
+    border: solid var(--text-color);
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 0 5px;
+  }
+  .res {
+    width: 100%;
+  }
+  p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .resh {
+    padding-top: 20px;
+  }
+}

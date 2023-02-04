@@ -1,0 +1,67 @@
+:root {
+  --unimportan-color: #5f5656;
+  --back-color: #b6d6f0;
+  --text-color: #0e3f99;
+}
+
+.nameis {
+  color: var(--unimportan-color);
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+h1 {
+  font-size: 67px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+h2 {
+  font-size: 43px;
+  margin-bottom: 0;
+}
+.butt a {
+  text-decoration: none;
+
+  border: solid var(--text-color);
+  border-radius: 5px;
+  padding: 20px 10px;
+  margin: 0 10px;
+}
+.butt {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.butstyle1 {
+  color: var(--text-color);
+  background-color: var(--back-color);
+}
+.butstyle2 {
+  color: var(--back-color);
+  background-color: var(--text-color);
+}
+.two-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.kadr {
+  background-color: var(--back-color);
+  margin: 0 10px;
+  padding: 20px 10px;
+  border-radius: 5px;
+}
+
+.mail {
+  text-decoration: none;
+  color: var(--text-color);
+}
+.mail:hover {
+  text-decoration: underline;
+}
+.back {
+  color: var(--text-color);
+}
+.whole {
+  /* max-width: 800px; */
+  margin: 0 auto;
+}
